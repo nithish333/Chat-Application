@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat application</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="centeredForm">
+      <div class="centeredFormBox">
+        <h1>Chatcord</h1>
+        <form action="/chat.html">
+          <label>Enter your name</label>
+          <input
+            type="text"
+            id="name"
+            name="username"
+            placeholder="Enter a name to display inside room"
+            required
+            autocomplete="off"
+          />
+          <label>Room</label>
+          <input
+            type="text"
+            id="room"
+            name="room"
+            placeholder="Enter room to join"
+            required
+          />
+          <button id="joinBtn">Join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
